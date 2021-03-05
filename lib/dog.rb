@@ -4,7 +4,7 @@ class Dog
   end
 
   def name
-    return @dog_name
+    puts @dog_name
   end
 
   def breed=(breed)
@@ -12,6 +12,6 @@ class Dog
   end
 
   def breed
-    return @dog_breed
+    puts @dog_breed
   end
 end
